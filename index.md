@@ -3,7 +3,7 @@ This site is a way to document my solutions and opinions on all things smart hom
 
 # Topics
 * A Smooth Transition Into A Smart Home
-* Smart Light Bulbs Suck
+* [Smart Light Bulbs Suck](smart-lights-suck.md)
 * RGB Strips
 * [Makine An Easy To Maintain Smart Home With Home Assistant](maintainable-home-assistant.md)
 * Cheap Tablet Dashboard For Home Assistant
