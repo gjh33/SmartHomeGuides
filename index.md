@@ -5,6 +5,6 @@ This site is a way to document my solutions and opinions on all things smart hom
 * A Smooth Transition Into A Smart Home
 * Smart Light Bulbs Suck
 * RGB Strips
-* Makine An Easy To Maintain Smart Home With Home Assistant
+* [Makine An Easy To Maintain Smart Home With Home Assistant](maintainable-home-assistant.md)
 * Cheap Tablet Dashboard For Home Assistant
 * Making Home Assistant React To Deliveries
