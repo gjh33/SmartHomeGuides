@@ -146,7 +146,7 @@ This section is dedicated to maintainable automations. Sometimes you may want to
 ### Avoid Magic Numbers
 If any of your automations have number or text in them, consider instead moving that number or text into a helper. Helpers are essentially global variables for Home Assistant. Sadly their support is a bit lacking, and sometimes you have to resort to templating to fetch their values. You may also notice helpers don't have every value type available. How do you input a color? Templates. Remember at any point, you can edit the yaml in your automations, and use templates. Templates output their result as text in the yaml file. Want to represent a color? Have a text helper that contains `255,255,255` or w/e color you want. Then use templates to render that text helper into yaml. 
 ```yaml
-rgb_color: "{{ states('input_text.my_theatre_light_color') }}"
+rgb_color: {% raw %}"{{ states('input_text.my_theatre_light_color') }}"{% endraw %}
 ```
 
 Learning to do this will make your life easier. If the value is only used in one automation, that's fine. But if you have copies of the same automation for each room of your house, and later want to change a value in that automation, it's much nicer if you have one place you can adjust that value.
